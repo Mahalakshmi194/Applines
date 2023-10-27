@@ -1,0 +1,149 @@
+body{
+    background-color: black;
+}
+.mainDiv{
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* overflow-x: hidden; */
+
+}
+.col1{
+    width: 11%;
+    position: fixed;
+    background: rgba(0,0,0,0);
+
+}
+.col2{
+    width: 100%;
+    margin-left: 90px;
+}
+.content div{
+    display: flex;
+    align-items: center;
+    margin-left: -5px;
+    padding: 30px;
+    /* background: pink; */
+    height: 25px;
+    
+
+}
+
+.content div .cot{
+    margin-left: 13px;
+    font-size: 19px;
+    color: grey;
+    /* background-color: aqua; */
+    margin-right: 3px;
+}
+.content div i{
+    font-size: 13px;
+}
+
+.vi{
+    display: none;
+    color: grey;
+    margin-left: 5px;
+    transition: all 0.2s;
+    overflow-x:visible;
+    /* background-color: aqua; */
+}
+.content div:hover{
+    transform: translateX(2px);
+    transform: translateY(2px);
+    height: 30px;
+}
+
+.content:hover{
+    cursor: pointer;
+}
+.content:hover .vi{
+    display: block;
+}
+.content div:hover .vi{
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    
+}
+.content div:hover .cot{
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.imgDiv{
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    
+}
+.smImages div{
+    margin-top: 100px;
+    margin-right: 7px;
+    
+}
+.smImages div img{
+    height: 60px;
+    width: 120px;
+}
+.smImages div img:hover{
+    height: 65px;
+    width: 130px;
+    cursor: pointer;
+}
+.watchNow{
+    cursor: pointer;
+}
+.latestReleases{
+    width: 100%;
+    height: 322px;
+}
+.innerCard{
+    display: none;
+}
+.latestReleases div img{
+    width: 15rem;
+    height: 250px;
+}
+.latestReleases div img:hover{
+    cursor: pointer;
+    width: 18rem;
+    transform: translateY(5px);
+    transform: translateX(5px);
+    height: 320px;
+}
+/* .latestReleases div img:hover .inner */
+
+.bestInSports{
+    width: 100%;
+    height: 250px;
+}
+.bestInSports div img{
+    width: 20rem;
+    height: 200px;
+}
+.bestInSports div img:hover{
+    cursor: pointer;
+    width: 21rem;
+    height: 250px;
+    transform: translateX(2px);
+    transform: translateY(2px);
+}
+
+/* .innerCard:hover{
+    cursor: pointer;
+    width: 18rem;
+    transform: translateY(5px);
+    transform: translateX(5px);
+    height: 320px;
+} */
+.outerCard{
+    display: block;
+}

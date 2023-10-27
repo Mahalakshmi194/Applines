@@ -1,0 +1,58 @@
+body{
+    background: rgb(241, 238, 238);
+}
+
+.topIcons{
+    display: flex;
+}
+
+.butt:hover{
+    cursor: pointer;
+}
+
+.songsDiv{
+    overflow-y: hidden;
+}
+
+.songsDiv:hover{
+    overflow-y: auto;
+}
+
+#myinput{
+    accent-color: red;
+    cursor: pointer;
+}
+
+/* input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: red;
+    margin-top: -1px;
+  } */
+
+  /* #myinput {
+    border-radius: 8px;
+    height: 4px;
+    width: 150px;
+    outline: none;
+    /* -webkit-appearance: none; */
+    /* background-color: grey; */
+    /* color: brown; */
+  /* } */
+
+  /* input[type='range']::-webkit-slider-runnable-track{
+    -webkit-appearance:none;
+    background-color: rgb(37, 36, 36);
+    color: red;
+    height: 2px;
+    cursor: pointer;
+  } */
+
+  /* input[type='range']::-webkit-slider-thumb {
+    width: 6px;
+    -webkit-appearance: none;
+    height: 12px;
+    background: rgb(209, 23, 23);
+    border-radius: 5px;
+    cursor: pointer;
+  } */
